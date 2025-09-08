@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GraffiRose</title>
+  <style>
+    /* Colores corporativos */
+    :root {
+      --negro: #000000;
+      --blanco: #ffffff;
+      --rojo: #f41300;
+      --dorado: #b58031;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Agency FB", Arial, sans-serif;
+      background-color: var(--negro);
+      color: var(--blanco);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, var(--negro), var(--rojo));
+      color: var(--blanco);
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-family: "Colonna MT", serif;
+      font-size: 4rem;
+      color: var(--dorado);
+      margin: 0;
+    }
+
+    header h1 span {
+      font-family: "Edward Script ITC", cursive;
+      font-size: 2.5rem;
+      color: var(--rojo);
+    }
+
+    header p {
+      font-style: italic;
+      color: var(--blanco);
+      margin-top: 0.5rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: var(--dorado);
+      padding: 0.7rem;
+    }
+
+    nav a {
+      color: var(--blanco);
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--rojo);
+    }
+
+    section {
+      padding: 3rem 10%;
+    }
+
+    h2 {
+      color: var(--dorado);
+      font-size: 2rem;
+      border-left: 5px solid var(--rojo);
+      padding-left: 10px;
+    }
+
+    .card {
+      background: var(--blanco);
+      color: var(--negro);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    }
+
+    footer {
+      text-align: center;
+      background: var(--negro);
+      color: var(--blanco);
+      padding: 1rem;
+      border-top: 2px solid var(--dorado);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GRAFFI<span>ROSE</span></h1>
+    <p>"Belleza que florece entre el caos"</p>
+  </header>
+
+  <nav>
+    <a href="#identidad">Identidad</a>
+    <a href="#productos">Productos</a>
+    <a href="#objetivos">Objetivos</a>
+    <a href="#equipo">Equipo</a>
+  </nav>
+
+  <section id="identidad">
+    <h2>Identidad Visual</h2>
+    <div class="card">
+      <p>El nombre <b>GraffiRose</b> nace de la fusión entre el graffiti y la delicadeza de las rosas en tela, logrando un equilibrio entre lo urbano y lo elegante.</p>
+    </div>
+  </section>
+
+  <section id="productos">
+    <h2>Presentación del Producto</h2>
+    <div class="card">
+      <p>Rosas eternas personalizadas con arte urbano. Cada pieza es única y transmite fuerza, pasión y elegancia.</p>
+    </div>
+  </section>
+
+  <section id="objetivos">
+    <h2>Objetivos</h2>
+    <div class="card">
+      <ul>
+        <li>Convertirse en una marca única y reconocida.</li>
+        <li>Mostrar que el arte urbano es valioso y significativo.</li>
+        <li>Lograr rentabilidad mediante productos distintivos.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="equipo">
+    <h2>Creadores</h2>
+    <div class="card">
+      <p><b>Karen López</b> – Diseñadora de rosas en tela</p>
+      <p><b>Artemis Bernal</b> – Creadora de estilos de graffiti</p>
+      <p><b>Yojan Rodríguez</b> – Ensamblador e ilustrador</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 GraffiRose - Belleza y Arte Urbano
+  </footer>
+</body>
+</html>
